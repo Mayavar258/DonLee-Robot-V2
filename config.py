@@ -5,7 +5,7 @@ from translation import Translation
 
 ## Main
 APP_ID = int(os.environ.get("API_ID", 1522127)
-API_HASH = os.environ.get("API_HASH", "1252ffe16baf341bfd7236f92df76b0e") 
+API_HASH = "1252ffe16baf341bfd7236f92df76b0e"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6821673610:AAGdw8ecQN5VXfiEDCAL1rw5IrOY6SK6EF8") 
 USER_SESSION = os.environ.get("SESSION_FILE", "AQDA-BtwLjddpc-7ReG18iRLw0oUtaig1a0_Ipd6pXV6_plouVhzj6ShqMSAasdTpx-wJsob4BpU7zotLXpuoVcbQShUo8Ng_U5KfRcqwvdEGwdw9gMiGrgHTWktL1HwR3zR9iPbF3yn84cKrf8SRME3n0lQ7kwgYzl6412tOvnMLeAPoGQ_jT6M7EkNOR7yAHzLHJxK2LcSQevdbFpq0KJs7lTyeSLTHjsBax0gA_jO8CaMaaApj2evxDlLxz9Tafn2URKjNoJ_rcgtCQJHn_BsO_Mt1qTgw6Eo8yJinWpckPp5Tlan2Ew94a8Qx01j3c9osbhXggHPsLlHUHOL7ZJTbpIirAA")  
 DATABASE = os.environ.get("DATABASE_URI", "mongodb+srv://1:1@cluster0.xu6wa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority") 
